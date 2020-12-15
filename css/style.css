@@ -747,11 +747,36 @@ img {
   text-align: left;
   color: #5A7184;
   width: 78%;
+  margin-bottom: 50px;
 }
 
-.button-prev__img {
-  border: 1px solid #959EAD;
+.button-prev {
+  border: 2px solid #959EAD;
+  border-radius: 2000px;
   text-align: center;
+  width: 55px;
+  height: 55px;
+  background-color: #ffffff;
+  margin-right: 17px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-next {
+  border: 2px solid #183B56;
+  border-radius: 2000px;
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  background-color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+
+.right-one__relax {
+  border-radius: 8px 8px 0 0;
+  width: 312px;
+  height: 317px;
 }
 
 @media (max-width: 1200px) {
